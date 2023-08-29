@@ -4,8 +4,8 @@
 
 
 class Square;
-""" classes that define a square by its size """
-
+    """ classes that define a square by its size
+    """
     def __init__(self, size = 0):
         """initialize the square object
         """
