@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 def multiply_by_2(a_dictionary):
-    dictionary_new = a_dictionary.copy()
-    list_keys = list(dictionary_new.keys())
-
+    dict = a_dictionary.copy()
+    list_keys = list(dict.keys())
     for i in list_keys:
-        dictionary_new[i] *= 2
-
-    return (dictionary_new)
+        dict[i] *= 2
+    return (dict)
